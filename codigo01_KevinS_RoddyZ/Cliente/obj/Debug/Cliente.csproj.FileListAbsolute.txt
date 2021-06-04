@@ -1,0 +1,16 @@
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\bin\Debug\Cliente.exe.config
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\bin\Debug\Cliente.exe
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\bin\Debug\Cliente.pdb
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\bin\Debug\Codificador.dll
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\bin\Debug\Codificador.pdb
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.csprojAssemblyReference.cache
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.FrmContratacion.resources
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.FrmEstadoContratacion.resources
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.FrmPersonasContratadas.resources
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.FrmPrincipal.resources
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.Properties.Resources.resources
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.csproj.GenerateResource.cache
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.csproj.CoreCompileInputs.cache
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.csproj.CopyComplete
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.exe
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Cliente\obj\Debug\Cliente.pdb

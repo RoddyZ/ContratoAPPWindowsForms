@@ -1,0 +1,101 @@
+create database Contrato
+go
+use Contrato
+go
+
+
+create table tblPersona(
+idPersona int identity(1,1) not null primary key,
+nombrePersona varchar(100) ,
+cedula  varchar(10) unique,                      --Valor unico
+departamento varchar(5) ,
+titulo varchar(100),
+tipoPersonal varchar(15),
+estado varchar(20),
+nombrePDF varchar(100),
+archivoPDF varbinary(MAX)
+)
+go
+
+
+---------------------------Procedimiento almacenados----------------------------------
+create procedure sp_IngresarPersonas
+@nombrePersona varchar(100) ,
+@cedula varchar(10) ,
+@departamento varchar(5) ,
+@titulo varchar(50),
+@tipoPersonal varchar(15),
+@estado varchar(20)
+as 
+begin
+insert into tblPersona values (@nombrePersona,@cedula,@departamento,@titulo,@tipoPersonal ,@estado,'',0)
+end
+go
+
+
+--go
+create procedure sp_ActualizarEstado
+@idPersona int,
+@estado varchar(20)
+as
+begin
+	update tblPersona set estado=@estado 
+	where idPersona=@idPersona
+end
+go 
+
+create procedure sp_AdjuntarPDF
+@idPersona int,
+@nombrePDF varchar(100),
+@archivoPDF varbinary(MAX)
+as 
+begin
+	update tblPersona set nombrePDF=@nombrePDF, archivoPDF=@archivoPDF
+	where idPersona=@idPersona
+end
+go
+--select * from tblPersona
+--go
+
+--------------------------INGRESO DE PARAMETROS-------------------------------------------------
+exec sp_IngresarPersonas 'Andres Carrasco','1313693903','DEE','Ingeniero','Ocasional','SOLICITADO'
+go
+exec sp_IngresarPersonas 'Lesly Giler','1303693101','DETRI','Doctor','Titular','SOLICITADO'
+go
+exec sp_IngresarPersonas 'Andres Zambrano','1273693254','DACI','Master','Invitado','SOLICITADO'
+go
+exec sp_IngresarPersonas 'Genesis Intriago','1463693903','DM','PHD','Honorario','SOLICITADO'
+go
+exec sp_IngresarPersonas 'Rene Pincay','1503693904','DF','Ingeniero','Ayudante','SOLICITADO'
+go
+exec sp_IngresarPersonas 'Emily Cevalloz','16413693905','DG','Ingeniero','Ocasional','ENTREGA DOCUMENTOS'
+go
+exec sp_IngresarPersonas 'Angel Quiroz','1733693906','DEE','Ingeniero','Titular','ENTREGA DOCUMENTOS'
+go
+exec sp_IngresarPersonas 'Nicol Robles ','1823693907','DETRI','Ingeniero','Invitado','ENTREGA DOCUMENTOS'
+go
+exec sp_IngresarPersonas 'Michael Solorzano','1913693908','DACI','Doctor','Honorario','ENTREGA DOCUMENTOS'
+go
+exec sp_IngresarPersonas 'Nadia Milena','1003693909','DM','Doctor','Ayudante','ENTREGA DOCUMENTOS'
+go
+exec sp_IngresarPersonas 'Hector Reyes','1113693900','DF','Doctor','Ocasional','VALIDADO'
+go
+exec sp_IngresarPersonas 'Zuleika Mejia','1223693901','DG','Doctor','Titular','VALIDADO'
+go
+exec sp_IngresarPersonas 'Iker Casillas','1333693902','DEE','PHD','Invitado','VALIDADO'
+go
+exec sp_IngresarPersonas 'Mileisa Balda','1443693903','DETRI','PHD','Honorario','VALIDADO'
+go
+exec sp_IngresarPersonas 'Josue Zamora','1553693904','DACI','PHD','Ayudante','VALIDADO'
+go
+exec sp_IngresarPersonas 'Nely Rodriguez','1663693905','DM','PHD','Ocasional','CONTRATADO'
+go
+exec sp_IngresarPersonas 'Edwin Van Der Sar','1773693906','DF','Ingeniero','Titular','CONTRATADO'
+go
+exec sp_IngresarPersonas 'Alex Morgan','1883693907','DG','Doctor','Invitado','CONTRATADO'
+go
+exec sp_IngresarPersonas 'Oliver Khan','1993693908','DEE','Master','Honorario','CONTRATADO'
+go
+exec sp_IngresarPersonas 'Santiago Canizares','1003693999','DETRI','PHD','Ayudante','CONTRATADO'
+
+

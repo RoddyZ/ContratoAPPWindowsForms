@@ -1,0 +1,12 @@
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\bin\Debug\Servidor.exe.config
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\bin\Debug\Servidor.exe
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\bin\Debug\Servidor.pdb
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\bin\Debug\CapaNegocio.dll
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\bin\Debug\Codificador.dll
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\bin\Debug\CapaNegocio.pdb
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\bin\Debug\Codificador.pdb
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\obj\Debug\Servidor.csprojAssemblyReference.cache
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\obj\Debug\Servidor.csproj.CoreCompileInputs.cache
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\obj\Debug\Servidor.csproj.CopyComplete
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\obj\Debug\Servidor.exe
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Servidor\obj\Debug\Servidor.pdb

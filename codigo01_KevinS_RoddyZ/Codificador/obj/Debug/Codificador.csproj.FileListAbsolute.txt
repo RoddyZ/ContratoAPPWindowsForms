@@ -1,0 +1,6 @@
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Codificador\bin\Debug\Codificador.dll
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Codificador\bin\Debug\Codificador.pdb
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Codificador\obj\Debug\Codificador.csprojAssemblyReference.cache
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Codificador\obj\Debug\Codificador.csproj.CoreCompileInputs.cache
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Codificador\obj\Debug\Codificador.dll
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\Codificador\obj\Debug\Codificador.pdb

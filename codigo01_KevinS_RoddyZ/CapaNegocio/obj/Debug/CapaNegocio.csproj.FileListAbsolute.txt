@@ -1,0 +1,9 @@
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\CapaNegocio\bin\Debug\Codificador.dll
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\CapaNegocio\bin\Debug\Codificador.pdb
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\MiPrimerContrato\codigo01_KevinS_RoddyZ\CapaNegocio\obj\Debug\CapaNegocio.pdb
